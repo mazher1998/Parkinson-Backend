@@ -226,7 +226,7 @@ router.delete("/reslut/:res_id", async (req, res) => {
     res.json(profile);
   } catch (error) {
     console.log(error);
-    res.status(500).json({ msg: "server error" });
+      res.status(500).json({ msg: "server error" });
   }
 });
 router.get("/kyakahny",(req,res)=>res.send("gg"));
